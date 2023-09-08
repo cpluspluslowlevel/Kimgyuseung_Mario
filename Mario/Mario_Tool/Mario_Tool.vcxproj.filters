@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Global.h" />
+    <ClCompile Include="..\API_Game\Math.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\API_Game\Bitmap.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API_Game\Graphics.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API_Game\Input.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API_Game\Time.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API_Game\Tile.cpp">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Sheet.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Mediator.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Property.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\API_Game\Math.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API_Game\Bitmap.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API_Game\Graphics.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API_Game\Input.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API_Game\Time.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Namespace.h" />
+    <ClInclude Include="..\API_Game\Tile.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Sheet.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_Mediator.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Property.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Extern">
+      <UniqueIdentifier>{2e9a1c9b-dc77-47b5-a0ec-af2242e0f23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{4b28378c-74c3-4500-bdab-0b36aa2e3858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Build\TileMap.dat" />
+  </ItemGroup>
+</Project>

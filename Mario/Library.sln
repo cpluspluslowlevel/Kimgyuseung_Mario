@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Global", "Global", "{99E9D7AD-F12B-417B-85B6-7B96020BC5AC}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Header\Global\Global.h = Build\Header\Global\Global.h
+		API_Game\Schedule.txt = API_Game\Schedule.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "API_Game", "API_Game\API_Game.vcxproj", "{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mario_Tool", "Mario_Tool\Mario_Tool.vcxproj", "{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Debug|x64.ActiveCfg = Debug|x64
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Debug|x64.Build.0 = Debug|x64
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Debug|x86.Build.0 = Debug|Win32
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Release|x64.ActiveCfg = Release|x64
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Release|x64.Build.0 = Release|x64
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Release|x86.ActiveCfg = Release|Win32
+		{DF6E2E8D-2264-42F1-8D2A-F0DCF38E3427}.Release|x86.Build.0 = Release|Win32
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Debug|x64.ActiveCfg = Debug|x64
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Debug|x64.Build.0 = Debug|x64
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Debug|x86.Build.0 = Debug|Win32
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Release|x64.ActiveCfg = Release|x64
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Release|x64.Build.0 = Release|x64
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Release|x86.ActiveCfg = Release|Win32
+		{0E6F823B-AB7B-469B-A49E-FCA73D0A114F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A9817E-7E08-4BBA-BF24-074154A9D96D}
+	EndGlobalSection
+EndGlobal

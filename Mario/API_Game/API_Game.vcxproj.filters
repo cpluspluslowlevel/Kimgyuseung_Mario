@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Namespace.h" />
+    <ClInclude Include="Field.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Unit.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Game_Object\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Object.h">
+      <Filter>Game_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Object_Mediator.h">
+      <Filter>Game_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Effect.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Warp.h">
+      <Filter>Game_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Field.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Unit.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Game_Object\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Object.cpp">
+      <Filter>Game_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Object_Mediator.cpp">
+      <Filter>Game_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Warp.cpp">
+      <Filter>Game_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game_Object">
+      <UniqueIdentifier>{368730f2-9794-46c1-ad12-913299f34c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{9977dcbd-401f-4c36-92fc-f8f5108d1718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Object\Unit">
+      <UniqueIdentifier>{4e077933-8148-4774-a866-89d8589b92d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Object\Ability">
+      <UniqueIdentifier>{67303a2f-1755-44ea-a2c7-53359269cc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{4a8823cb-c942-479f-8ede-65542702002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{516c3e2f-1b5e-4c97-8a8a-b482ed5e9496}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
